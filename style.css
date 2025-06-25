@@ -37,4 +37,5 @@ body {
     text-align: center;
     color: #333;
     column-span: all;
+    margin-top: 2rem; /* notice how it doesn't change anything
 }
