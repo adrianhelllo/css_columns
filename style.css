@@ -32,10 +32,12 @@ body {
     /* break-before: column; forces a line break before the selector, in this case the h2 tag. this will break the site's layout with only 1 column, because of it forcing a line break. */
 }
 
-.quote {
+.columns .quote {
     font-size: 3rem;
     text-align: center;
     color: #333;
     column-span: all;
     margin-top: 2rem; /* notice how it doesn't change anything */
-}
+    /* the reason it is not working is that .quote is less specific than .columns p, which overwrites the margin we specified here. */
+    /* to make it more specific, let's change the selector to .columns .quote */
+}   
