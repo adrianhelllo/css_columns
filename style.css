@@ -14,6 +14,7 @@ body {
     /* column-width: 250px; */
     columns: 4 250px; /* shorthand property */
     column-rule: 3px solid #333; /* ruling between the columns, border is added by a separate property */
+    column-gap: 3rem; /* adds a gap between the columns. it is not accounted for twice, works properly as it is. */
     background-color: cadetblue;
     border: 3px solid black;
 }
