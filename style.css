@@ -22,3 +22,10 @@ body {
 .columns p {
     margin-top: 0; /* stops the first paragraph from having a top margin. the other ones work because the top and bottom margins would overlap eachother otherwise, so it is fine to remove the top margin from all of them. */
 }
+
+.columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
