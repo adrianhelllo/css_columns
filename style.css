@@ -40,6 +40,10 @@ body {
     margin-top: 2rem; /* notice how it doesn't change anything */
     /* the reason it is not working is that .quote is less specific than .columns p, which overwrites the margin we specified here. */
     /* to make it more specific, let's change the selector to .columns .quote */
+}  
 
-    /* now how can we stop the author of the quote breaking apart? */
-}   
+/* now how can we stop the author of the quote breaking apart? */
+
+.nowrap {
+    white-space: nowrap; /* prevents any line breaks inside the span element */
+}
