@@ -31,3 +31,10 @@ body {
     break-inside: avoid; /* stops the h2's padding from occasionally being split between columns */
     /* break-before: column; forces a line break before the selector, in this case the h2 tag. this will break the site's layout with only 1 column, because of it forcing a line break. */
 }
+
+.quote {
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
