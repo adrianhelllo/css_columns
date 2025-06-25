@@ -7,11 +7,13 @@ body {
 
 .columns {
     /* right now, as we shrink the page, the columns start to behave wierdly, which we don't want.*/
-    column-count: 4;
+    /* column-count: 4; */
     /* with this attribute however, there is a sort of minimum width suggestion for the page */
     /* once the page cannot fit all the columns at a width of 250px, it collapses them to be only 3 columns, then so on */
     /* otherwise the columns will fill out the available space in the container*/
-    column-width: 250px;
+    /* column-width: 250px; */
+    columns: 4 250px; /* shorthand property */
+    
     background-color: cadetblue;
     border: 3px solid black;
 }
